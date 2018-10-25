@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FotoCamera2</string>
     <string name="take_picture">O</string>
+    <string name="title_activity_text_ocr">textOCRActivity</string>
 </resources>

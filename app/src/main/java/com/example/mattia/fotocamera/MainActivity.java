@@ -1,5 +1,8 @@
 package com.example.mattia.fotocamera;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.Manifest;
@@ -46,6 +49,7 @@ import java.util.Calendar;
 import java.util.Date;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "AndroidCameraApi";
+    public static final String PATH="com.example.fotocamera.MESSAGE";
     private Button takePictureButton;
     private TextureView textureView;
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
@@ -174,6 +178,9 @@ public class MainActivity extends AppCompatActivity {
             // file name
             int currentTime = Calendar.getInstance().getTime().hashCode();
             final File file = new File(Environment.getExternalStorageDirectory()+"/"+Environment.DIRECTORY_PICTURES+"/camera2/"+currentTime+".jpg");
+            //Create intent for OCRActivity
+            final Intent intentOCR= new Intent(this,OCRActivity.class);
+            intentOCR.putExtra(PATH, file.getPath());
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
                 public void onImageAvailable(ImageReader reader) {
@@ -212,7 +219,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onCaptureCompleted(CameraCaptureSession session, CaptureRequest request, TotalCaptureResult result) {
                     super.onCaptureCompleted(session, request, result);
                     Toast.makeText(MainActivity.this, "Saved:" + file, Toast.LENGTH_SHORT).show();
-                    createCameraPreview();
+                    //createCameraPreview();
+                    startActivity(intentOCR);
                 }
             };
             cameraDevice.createCaptureSession(outputSurfaces, new CameraCaptureSession.StateCallback() {
