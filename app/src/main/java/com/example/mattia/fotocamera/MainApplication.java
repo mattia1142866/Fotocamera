@@ -20,12 +20,31 @@ public class MainApplication extends Application {
         copyTessDataForTextRecognizor();
     }
 
+    /*
+    @author Fasan Giovanni
+    @param none
+    @return String of tess's data path
+    */
+
     private String tessDataPath(){
         return MainApplication.instance.getExternalFilesDir(null)+"/tessdata/";
     }
+
+    /*
+    @author Fasan Giovanni
+    @param none
+    @return String of tess's data parent directory
+    */
+
     public String getTessDataParentDirectory(){
         return MainApplication.instance.getExternalFilesDir(null).getAbsolutePath();
     }
+
+    /*
+    @author Fasan Giovanni
+    @param none
+    @return void
+    */
 
     private void copyTessDataForTextRecognizor(){
         Runnable run = new Runnable() {
