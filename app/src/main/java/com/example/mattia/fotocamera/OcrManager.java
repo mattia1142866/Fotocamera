@@ -4,6 +4,8 @@ import android.graphics.Bitmap;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
 
+import java.io.File;
+
 public class OcrManager {
 
     TessBaseAPI baseAPI = null;
@@ -22,11 +24,11 @@ public class OcrManager {
     @param Bitmap image we want to recognize
     @return String of the text found in the image
     */
-    public String getTextFromImg(Bitmap img){
+    public String getTextFromImg(Bitmap image){
         if(baseAPI==null){
             initAPI();
         }
-        baseAPI.setImage(img);
+        baseAPI.setImage(image);
         return baseAPI.getUTF8Text();
     }
 

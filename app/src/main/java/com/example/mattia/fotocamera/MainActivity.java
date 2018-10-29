@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
                 height = jpegSizes[0].getHeight();
                 //devo fare un print delle dimensioni!!!!!!!!!!!!!!
             }
-            ImageReader reader = ImageReader.newInstance(width, height, ImageFormat.JPEG, 1);
+            ImageReader reader = ImageReader.newInstance(width, height, ImageFormat.JPEG, 2);
             List<Surface> outputSurfaces = new ArrayList<Surface>(2);
             outputSurfaces.add(reader.getSurface());
             outputSurfaces.add(new Surface(textureView.getSurfaceTexture()));
@@ -178,9 +178,18 @@ public class MainActivity extends AppCompatActivity {
             // file name
             int currentTime = Calendar.getInstance().getTime().hashCode();
             final File file = new File(Environment.getExternalStorageDirectory()+"/"+Environment.DIRECTORY_PICTURES+"/camera2/"+currentTime+".jpg");
+            file.mkdirs();
+            try {
+                if(file.exists()){
+                    file.delete();
+                }
+                file.createNewFile();
+            } catch(IOException e){
+                e.printStackTrace();
+            }
             //Create intent for OCRActivity
             final Intent intentOCR= new Intent(this,OCRActivity.class);
-            intentOCR.putExtra(PATH, file.getPath());
+            intentOCR.putExtra("PATH_I_NEED", file.getPath());
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
                 public void onImageAvailable(ImageReader reader) {
@@ -202,12 +211,13 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 private void save(byte[] bytes) throws IOException {
-                    OutputStream output = null;
+                    FileOutputStream output = null;
                     try {
                         output = new FileOutputStream(file);
                         output.write(bytes);
                     } finally {
                         if (null != output) {
+                            output.flush();
                             output.close();
                         }
                     }

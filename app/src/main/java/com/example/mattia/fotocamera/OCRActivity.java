@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.io.File;
+
 /*
 @author Fasan Giovanni
 @param
@@ -15,6 +18,7 @@ import android.widget.TextView;
  */
 public class OCRActivity extends AppCompatActivity {
 
+    Bundle extras;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,10 +26,13 @@ public class OCRActivity extends AppCompatActivity {
         OcrManager manager = new OcrManager();
         //initialize OCR library
         manager.initAPI();
-        Intent intent=getIntent();
+        //Intent intent=getIntent();
+        extras = getIntent().getExtras();
         //get a photo's path from MainActivity
-        String path=intent.getStringExtra(MainActivity.PATH);
+        String path=extras.getString("PATH_I_NEED");
+        System.out.println(path);
         Bitmap bitmap = BitmapFactory.decodeFile(path);
+        //bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
         String testo = manager.getTextFromImg(bitmap);
         TextView t= findViewById(R.id.textView);
         t.setText(testo);
