@@ -80,11 +80,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //load the layout
+        //Load the layout
         setContentView(R.layout.activity_main);
         textureView = (TextureView) findViewById(R.id.texture);
         assert textureView != null;
-        //load the botton and camera layout
+        //Load the botton and camera layout
         textureView.setSurfaceTextureListener(textureListener);
         takePictureButton = (Button) findViewById(R.id.btn_takePhoto);
         assert takePictureButton != null;
@@ -101,21 +101,21 @@ public class MainActivity extends AppCompatActivity {
     TextureView.SurfaceTextureListener textureListener = new TextureView.SurfaceTextureListener() {
         /*
             Invoked when a TextureView's SurfaceTexture is ready for use
-            @param The surface returned by TextureView.getSurfaceTexture()
-            @param Width is the width of the surface
-            @param Weight is the height of the surface
+            @param surface The surface returned by TextureView.getSurfaceTexture()
+            @param width is the width of the surface
+            @param height is the height of the surface
         */
         @Override
         public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
-            //open your camera
+            //Open your camera
             openCamera();
         }
 
         /*
             Invoked when the SurfaceTexture's buffers size changed.
-            @param The surface returned by TextureView.getSurfaceTexture()
-            @param Width is the width of the surface
-            @param Weight is the height of the surface
+            @param surface The surface returned by TextureView.getSurfaceTexture()
+            @param width is the width of the surface
+            @param height is the height of the surface
         */
         @Override
         public void onSurfaceTextureSizeChanged(SurfaceTexture surface, int width, int height) {
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
     private final CameraDevice.StateCallback stateCallback = new CameraDevice.StateCallback() {
         /*
             The method called when a camera device has finished opening.
-            @param the camera device that has become opened. This value must never be null.
+            @param camera is the device that has become opened. This value must never be null.
          */
         @Override
         public void onOpened(CameraDevice camera) {
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
         /*
             The method called when a camera device is no longer available for use.
-            @param the device that has been disconnected. This value must never be null.
+            @param camera is the device that has been disconnected. This value must never be null.
          */
         @Override
         public void onDisconnected(CameraDevice camera) {
@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
             if (characteristics != null) {
                 jpegSizes = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP).getOutputSizes(ImageFormat.JPEG);
             }
-            //Declaring the variables reassigning the value variables
+            //Declaring the variables and reassigning the value of them
             int width = 600;
             int height = 450;
             if (jpegSizes != null && 0 < jpegSizes.length) {
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
             captureBuilder.addTarget(reader.getSurface());
             //Set a capture request field to a value
             captureBuilder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO);
-            // Getting the orientation of the window and putting in the captureBuilder
+            //Getting the orientation of the window and putting in the captureBuilder
             int rotation = getWindowManager().getDefaultDisplay().getRotation();
             captureBuilder.set(CaptureRequest.JPEG_ORIENTATION, ORIENTATIONS.get(rotation));
             //Creating a file with a specific path and name
