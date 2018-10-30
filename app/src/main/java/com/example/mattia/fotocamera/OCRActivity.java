@@ -19,8 +19,8 @@ public class OCRActivity extends AppCompatActivity {
     /*
         Called when the activity is first created
         @param savedInstanceState If the activity is being re-initialized after
-            previously being shut down then this Bundle contains the data it most
-            recently supplied in onSaveInstanceState(Bundle). Otherwise it's null.
+               previously being shut down then this Bundle contains the data it most
+               recently supplied in onSaveInstanceState(Bundle). Otherwise it's null.
     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {

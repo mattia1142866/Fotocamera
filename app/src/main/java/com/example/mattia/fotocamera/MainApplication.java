@@ -19,7 +19,7 @@ public class MainApplication extends Application {
      */
     public void onCreate(){
         super.onCreate();
-        //start copy file here
+        //Starting copy file here
         instance=this;
         copyTessDataForTextRecognizor();
     }

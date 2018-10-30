@@ -22,9 +22,9 @@ public class OcrManager {
     }
 
     /*
-    @author Fasan Giovanni
-    @param Bitmap image we want to recognize
-    @return String of the text found in the image
+        @author Fasan Giovanni
+        @param Bitmap image we want to recognize
+        @return String of the text found in the image
     */
     public String getTextFromImg(Bitmap image){
         if(baseAPI==null){
