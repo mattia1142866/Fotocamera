@@ -15,6 +15,8 @@ import android.widget.TextView;
  */
 public class OCRActivity extends AppCompatActivity {
 
+    Bundle extras;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,9 +24,10 @@ public class OCRActivity extends AppCompatActivity {
         OcrManager manager = new OcrManager();
         //initialize OCR library
         manager.initAPI();
-        Intent intent=getIntent();
+        extras = getIntent().getExtras();
         //get a photo's path from MainActivity
-        String path=intent.getStringExtra(MainActivity.PATH);
+        String path=extras.getString("PATH_I_NEED");
+
         Bitmap bitmap = BitmapFactory.decodeFile(path);
         String testo = manager.getTextFromImg(bitmap);
         TextView t= findViewById(R.id.textView);

@@ -147,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     protected void takePicture() {
+        Log.d(TAG,"takePicture");
         if(null == cameraDevice) {
             Log.e(TAG, "cameraDevice is null");
             return;
@@ -178,9 +179,18 @@ public class MainActivity extends AppCompatActivity {
             // file name
             int currentTime = Calendar.getInstance().getTime().hashCode();
             final File file = new File(Environment.getExternalStorageDirectory()+"/"+Environment.DIRECTORY_PICTURES+"/camera2/"+currentTime+".jpg");
+            file.mkdirs();
+            try {
+                if(file.exists()){
+                    file.delete();
+                }
+                file.createNewFile();
+            } catch(IOException e){
+                e.printStackTrace();
+            }
             //Create intent for OCRActivity
             final Intent intentOCR= new Intent(this,OCRActivity.class);
-            intentOCR.putExtra(PATH, file.getPath());
+            intentOCR.putExtra("PATH_I_NEED", file.getPath());
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
                 public void onImageAvailable(ImageReader reader) {
@@ -208,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
                         output.write(bytes);
                     } finally {
                         if (null != output) {
+                            output.flush();
                             output.close();
                         }
                     }
@@ -217,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
             final CameraCaptureSession.CaptureCallback captureListener = new CameraCaptureSession.CaptureCallback() {
                 @Override
                 public void onCaptureCompleted(CameraCaptureSession session, CaptureRequest request, TotalCaptureResult result) {
+                    Log.d(TAG, "foto salvata");
                     super.onCaptureCompleted(session, request, result);
                     Toast.makeText(MainActivity.this, "Saved:" + file, Toast.LENGTH_SHORT).show();
                     //createCameraPreview();
@@ -226,6 +238,7 @@ public class MainActivity extends AppCompatActivity {
             cameraDevice.createCaptureSession(outputSurfaces, new CameraCaptureSession.StateCallback() {
                 @Override
                 public void onConfigured(CameraCaptureSession session) {
+                    Log.d(TAG, "configure");
                     try {
                         session.capture(captureBuilder.build(), captureListener, mBackgroundHandler);
                     } catch (CameraAccessException e) {
@@ -234,10 +247,12 @@ public class MainActivity extends AppCompatActivity {
                 }
                 @Override
                 public void onConfigureFailed(CameraCaptureSession session) {
+                    Log.d(TAG, "configure failed");
                 }
             }, mBackgroundHandler);
         } catch (CameraAccessException e) {
             e.printStackTrace();
+            Log.d(TAG,"errore");
         }
     }
     protected void createCameraPreview() {
