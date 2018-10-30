@@ -10,13 +10,15 @@ public class OcrManager {
 
     TessBaseAPI baseAPI = null;
 
+    /*
+        The method that initialize the OCR with a predefined language
+     */
     public void  initAPI(){
         baseAPI = new TessBaseAPI();
+        //Obtaining the path where the trained data are saved
         String dataPath = MainApplication.instance.getTessDataParentDirectory();
+        //Initializing the OCR library with a prefixed language
         baseAPI.init(dataPath,"ita");
-        //first param is datapath which is part to the your trainned data, second is language code
-        //now, your trained data stored in asset folder, we need to copy it to another exernal storage folder
-        //It is better do this work when application start firt time
     }
 
     /*
@@ -31,5 +33,4 @@ public class OcrManager {
         baseAPI.setImage(image);
         return baseAPI.getUTF8Text();
     }
-
 }

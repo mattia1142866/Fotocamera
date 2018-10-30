@@ -10,9 +10,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class MainApplication extends Application {
-
     public static MainApplication instance = null;
 
+    /*
+        Called when the activity is first created. This is where you should do all of your normal static
+        set up: create views, bind data to lists, etc. This method also provides you with a Bundle
+        containing the activity's previously frozen state, if there was one.
+     */
     public void onCreate(){
         super.onCreate();
         //start copy file here
@@ -21,39 +25,39 @@ public class MainApplication extends Application {
     }
 
     /*
-    @author Fasan Giovanni
-    @param none
-    @return String of tess's data path
+        @author Fasan Giovanni
+        @return String of tess's data path
     */
-
     private String tessDataPath(){
         return MainApplication.instance.getExternalFilesDir(null)+"/tessdata/";
     }
 
     /*
-    @author Fasan Giovanni
-    @param none
-    @return String of tess's data parent directory
+        @author Fasan Giovanni
+        @return String of tess's data parent directory
     */
-
     public String getTessDataParentDirectory(){
         return MainApplication.instance.getExternalFilesDir(null).getAbsolutePath();
     }
 
     /*
-    @author Fasan Giovanni
-    @param none
-    @return void
+        @author Fasan Giovanni
+        The method that allow the OCR to read the trained data
     */
-
     private void copyTessDataForTextRecognizor(){
         Runnable run = new Runnable() {
+            /*
+                When an object implementing interface Runnable is used to create a thread, starting
+                the thread causes the object's run method to be called in that separately executing thread.
+             */
             @Override
             public void run() {
+                //Provides the access to the assets file
                 AssetManager assetManager = MainApplication.instance.getAssets();
                 OutputStream out = null;
                 try{
                     Log.d("MainApplication", "CopyTessDataForTextRecognizor");
+                    //Trying ot open the trained data
                     InputStream in = assetManager.open("ita.traineddata");
                     String tesspath = instance.tessDataPath();
                     File tessFolder = new File(tesspath);
@@ -63,6 +67,7 @@ public class MainApplication extends Application {
                     String tessData = tesspath+"/"+"ita.traineddata";
                     File tessFile = new File(tessData);
                     if(!tessFile.exists()){
+                        //Create a new tessFile
                         out = new FileOutputStream(tessData);
                         byte[] buffer = new byte[1024];
                         int read = in.read(buffer);
