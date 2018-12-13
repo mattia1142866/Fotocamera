@@ -22,7 +22,6 @@ public class OCRActivity extends AppCompatActivity {
 
     private static final String TAG = "AndroidCameraApi";
     Bundle extras;
-    String language = "ita";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +30,11 @@ public class OCRActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ocr);
 
         final InputStream database = getResources().openRawResource(R.raw.database);
-        TessOCR mTessOCR = new TessOCR (this, language);
         Log.d(TAG, "OCRActivity");
 
-        /*OcrManager manager = new OcrManager();
+        OcrManager manager = new OcrManager();
         //initialize OCR library
-        manager.initAPI();*/
+        manager.initAPI();
 
 
         extras = getIntent().getExtras();
@@ -49,8 +47,8 @@ public class OCRActivity extends AppCompatActivity {
 
 
         //recognize the text from image
-        //String text = manager.getTextFromImg(img_photo);
-        /*String text = mTessOCR.getOCRResult(img_photo);
+        String text = manager.getTextFromImg(img_photo);
+
 
 
         TextView textView_text= findViewById(R.id.textView_text);
@@ -59,7 +57,7 @@ public class OCRActivity extends AppCompatActivity {
 
         Inci ingredients = new Inci(database);
         TextView textView_inci = findViewById(R.id.textView_ingredients);
-        textView_inci.setText(ingredients.listIngredientsToString());*/
+        textView_inci.setText(ingredients.listIngredientsToString());
 
     }
 
