@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':ocr_module', ':Ocr_lib', ':ocr_module2'

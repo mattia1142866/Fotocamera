@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 public class OcrManager {
-
+    private static final String TAG = "AndroidCameraApi";
     TessBaseAPI baseAPI = null;
 
     public void  initAPI(){
