@@ -29,6 +29,7 @@ public class MainApplication extends Application {
         @return String of tess's data path
     */
     private String tessDataPath(){
+        Log.d("path", MainApplication.instance.getExternalFilesDir(null)+"/tessdata/");
         return MainApplication.instance.getExternalFilesDir(null)+"/tessdata/";
     }
 
@@ -37,6 +38,7 @@ public class MainApplication extends Application {
         @return String of tess's data parent directory
     */
     public String getTessDataParentDirectory(){
+        Log.d("path", MainApplication.instance.getExternalFilesDir(null).getAbsolutePath());
         return MainApplication.instance.getExternalFilesDir(null).getAbsolutePath();
     }
 
@@ -50,7 +52,7 @@ public class MainApplication extends Application {
                 When an object implementing interface Runnable is used to create a thread, starting
                 the thread causes the object's run method to be called in that separately executing thread.
              */
-            @Override
+
             public void run() {
                 //Provides the access to the assets file
                 AssetManager assetManager = MainApplication.instance.getAssets();

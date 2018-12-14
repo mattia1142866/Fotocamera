@@ -1,6 +1,7 @@
 package com.example.mattia.fotocamera;
 
 import android.graphics.Bitmap;
+import android.util.Log;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
 
@@ -26,11 +27,15 @@ public class OcrManager {
         @param Bitmap image we want to recognize
         @return String of the text found in the image
     */
-    public String getTextFromImg(Bitmap image){
+    public String getOCRResult(Bitmap image){
         if(baseAPI==null){
             initAPI();
         }
+        Log.d("OCRActivity", "prima del setImage");
         baseAPI.setImage(image);
-        return baseAPI.getUTF8Text();
+        Log.d("OCRActivity", "immagine settata");
+        String txt= baseAPI.getUTF8Text();
+        Log.d("OCRActivity", "testo trovato");
+        return txt;
     }
 }

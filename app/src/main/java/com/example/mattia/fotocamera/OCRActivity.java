@@ -1,10 +1,12 @@
 package com.example.mattia.fotocamera;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +17,10 @@ import java.io.File;
  */
 public class OCRActivity extends AppCompatActivity {
     Bundle extras;
+    private ProgressDialog mProgressDialog;
+    //OcrManager tessOCR = new OcrManager();
+    TessOCR tessOCR = new TessOCR();
+    TextView t;
 
     /*
         Called when the activity is first created
@@ -26,20 +32,62 @@ public class OCRActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ocr);
-        OcrManager manager = new OcrManager();
         //Initialize the OCR library
-        manager.initAPI();
+        //tessOCR.initAPI();
+
         //Get the photo's path from MainActivity
         extras = getIntent().getExtras();
         String path=extras.getString("PATH_I_NEED");
         //Decode the file in the format that tesserect request
         Bitmap bitmap = BitmapFactory.decodeFile(path);
         //Obtaining the text fro the OCR
-        String testo = manager.getTextFromImg(bitmap);
+        t = findViewById(R.id.textView);
+        //String testo = manager.getTextFromImg(bitmap);
+        doOCR(bitmap);
         //Creating the view of the activity
-        TextView t= findViewById(R.id.textView);
-        t.setText(testo);
+
+    //        t.setText(testo);
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageBitmap(bitmap);
     }
+
+
+
+    public void doOCR(final Bitmap bitmap) {
+        if (mProgressDialog == null) {
+            mProgressDialog = ProgressDialog.show(this, "Processing",
+                    "Please wait...", true);
+        }
+        else {
+            mProgressDialog.show();
+        }
+        //t.setText("Processing....Please wait....");
+        Log.d("OCRActivity", "Prima del thread");
+        new Thread(new Runnable() {
+            public void run() {
+                Log.d("OCRActivity", "Run");
+                final String result = tessOCR.getOCRResult(bitmap).toLowerCase();
+
+
+                runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        // TODO Auto-generated method stub
+                        if (result != null && !result.equals("")) {
+                            Log.d("OCRActivity", "Find");
+                            String s = result.trim();
+                            t.setText(s);
+                        }
+
+                        mProgressDialog.dismiss();
+                    }
+
+                });
+
+            };
+        }).start();
+
+    }
+
 }
