@@ -1,6 +1,8 @@
 package com.example.mattia.fotocamera;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.Manifest;
@@ -45,6 +47,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Calendar;
 import java.util.Date;
+import com.example.imageprocessing.ImageProcessing;
+
 public class MainActivity extends AppCompatActivity {
     //STATIC ATTRIBUTES
     private static final String TAG = "MainActivity";
@@ -196,6 +200,9 @@ public class MainActivity extends AppCompatActivity {
             Image image = null;
             try {
                 image = reader.acquireLatestImage();
+                /*Bitmap b = BitmapFactory.decodeByteArray(image.getPlanes()[0].getBuffer().get(bytes));
+                ImageProcessing processor=new ImageProcessing();
+                double skew = processor.computeSkew(b);*/
                 ByteBuffer buffer = image.getPlanes()[0].getBuffer();
                 byte[] bytes = new byte[buffer.capacity()];
                 buffer.get(bytes);
