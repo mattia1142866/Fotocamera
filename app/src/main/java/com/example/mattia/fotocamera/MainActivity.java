@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
     protected CaptureRequest captureRequest;
     protected CaptureRequest.Builder captureRequestBuilder;
 
+
+    //Intent for Result Activity
+    Intent intentResult;
+
     /**
      *
      * @param savedInstanceState
@@ -87,6 +91,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        intentResult = new Intent(this,ResultActivity.class);
+
         textureView = (TextureView) findViewById(R.id.texture);
         assert textureView != null;
         textureView.setSurfaceTextureListener(textureListener);
@@ -187,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         public void onCaptureCompleted(CameraCaptureSession session, CaptureRequest request, TotalCaptureResult result) {
             super.onCaptureCompleted(session, request, result);
             createCameraPreview();
-            //startActivity(intent);
+            startActivity(intentResult);
         }
     };
 
@@ -221,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
             // file name
             int currentTime = Calendar.getInstance().getTime().hashCode();
             final File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Fotocamera3/Pictures/"+currentTime+".jpg");
+            intentResult.putExtra("PATH_I_NEED", file.getPath());
             OutputStream output = null;
             try {
                 output = new FileOutputStream(file);
