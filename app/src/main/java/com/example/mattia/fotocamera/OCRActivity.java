@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -42,11 +43,10 @@ public class OCRActivity extends AppCompatActivity {
         Bitmap bitmap = BitmapFactory.decodeFile(path);
         //Obtaining the text fro the OCR
         t = findViewById(R.id.textView);
+        t.setMovementMethod(new ScrollingMovementMethod());
         //String testo = manager.getTextFromImg(bitmap);
         doOCR(bitmap);
         //Creating the view of the activity
-
-    //        t.setText(testo);
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageBitmap(bitmap);
     }
@@ -54,14 +54,15 @@ public class OCRActivity extends AppCompatActivity {
 
 
     public void doOCR(final Bitmap bitmap) {
-        if (mProgressDialog == null) {
+        /*if (mProgressDialog == null) {
             mProgressDialog = ProgressDialog.show(this, "Processing",
                     "Please wait...", true);
         }
         else {
             mProgressDialog.show();
         }
-        //t.setText("Processing....Please wait....");
+        */
+        t.setText("Processing....Please wait....");
         Log.d("OCRActivity", "Prima del thread");
         new Thread(new Runnable() {
             public void run() {
@@ -75,12 +76,11 @@ public class OCRActivity extends AppCompatActivity {
                     public void run() {
                         // TODO Auto-generated method stub
                         if (result != null && !result.equals("")) {
-                            Log.d("OCRActivity", "Find");
                             String s = result.trim();
+                            Log.d("OCRActivity", "Find: "+s);
                             t.setText(s);
                         }
-
-                        mProgressDialog.dismiss();
+                       // mProgressDialog.dismiss();
                     }
 
                 });
