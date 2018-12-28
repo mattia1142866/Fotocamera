@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.example.mattia.fotocamera.OCRManager.OCRFactory;
+
 public class ResultActivity extends AppCompatActivity {
 
     Bundle extras;
