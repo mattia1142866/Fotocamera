@@ -88,10 +88,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textureView = (TextureView) findViewById(R.id.texture);
-        assert textureView != null;
+        //assert textureView != null;
         textureView.setSurfaceTextureListener(textureListener);
         takePictureButton = (Button) findViewById(R.id.btn_takePhoto);
-        assert takePictureButton != null;
+        //assert takePictureButton != null;
         View.OnClickListener btnListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -341,13 +341,14 @@ public class MainActivity extends AppCompatActivity {
     protected void createCameraPreview() {
         try {
             SurfaceTexture texture = textureView.getSurfaceTexture();
-            assert texture != null;
             texture.setDefaultBufferSize(imageDimension.getWidth(), imageDimension.getHeight());
             Surface surface = new Surface(texture);
             captureRequestBuilder = cameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW);
             captureRequestBuilder.addTarget(surface);
             cameraDevice.createCaptureSession(Arrays.asList(surface), createPreviewCallback, null);
         } catch (CameraAccessException e) {
+            e.printStackTrace();
+        } catch(NullPointerException e){
             e.printStackTrace();
         }
     }
