@@ -47,7 +47,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Calendar;
 import java.util.Date;
-import com.example.imageprocessing.ImageProcessing;
 
 public class MainActivity extends AppCompatActivity {
     //STATIC ATTRIBUTES
@@ -371,10 +370,11 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             manager.openCamera(cameraId, stateCallback, null);
+            Log.e(TAG, "openCamera "+ cameraId);
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }
-        Log.e(TAG, "openCamera X");
+
     }
 
     /**
@@ -405,16 +405,22 @@ public class MainActivity extends AppCompatActivity {
             //imageReader = null;
         }
     }
-    @Override
+    @Override   //https://developer.android.com/training/permissions/requesting - Leonardo Pratesi
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        /// if request is cancelled the array is empty, still don't know why is cancelled
         if (requestCode == REQUEST_CAMERA_PERMISSION) {
-            if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
-                // close the app
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                // do things
+            }
+            else{
                 Toast.makeText(MainActivity.this, "Sorry!!!, you can't use this app without granting permission", Toast.LENGTH_LONG).show();
                 finish();
             }
+
         }
     }
+
     @Override
     protected void onResume() {
         super.onResume();

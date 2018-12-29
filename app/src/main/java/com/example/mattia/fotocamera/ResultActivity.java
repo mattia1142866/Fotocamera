@@ -12,7 +12,7 @@ public class ResultActivity extends AppCompatActivity {
     private TextView ocrTextView;
     private ImageView mImageView;
     private Bitmap lastPhoto;
-    //private FloatingActionButton fab;
+    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
