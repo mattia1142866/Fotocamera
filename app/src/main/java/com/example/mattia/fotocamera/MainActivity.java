@@ -25,6 +25,7 @@ import android.hardware.camera2.TotalCaptureResult;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.Image;
 import android.media.ImageReader;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -33,6 +34,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.Size;
 import android.util.SparseIntArray;
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
   String cameraId;
   Handler backgroundHandler;
   //HandlerThread handlerThread
-  CameraDevide.StateCallback stateCallback =
+  CameraDevice.StateCallback stateCallback =                    //callbackobjects for receiving updates about the state of the camera
 
    protected void onCreate(Bundle saveInstanceState){
      super.onCreate(saveInstanceState);
@@ -82,12 +84,12 @@ public class MainActivity extends AppCompatActivity {
    private void openCamera(){
         //check permissions
         if (Build.VERSION.SDK_INT  >= 23) {
-          checkSelfPermission(Manifest.permissions.CAMERA) == PackageManager.PERMISSION_GRANTED) {
-            requestPermission(new String[]{Manifest.permission.CAMERA}, CAMERA_REQUEST_CODE);
+            (checkSelfPermission(Manifest.permissions.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            requestPermission(new String[]{Manifest.permission.CAMERA}, CAMERA_REQUEST_CODE};
           }
         else
         {
-          CameraManager.openCamera(cameraId)
+          CameraManager.openCamera(cameraId, stateCallback, backgroundHandler);
         }
         }
 
@@ -130,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
        }
        catch (CameraAccessException e) {
-         e.printStackTrance();
+         e.printStackTrace();
        }
    }
 
