@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\LeoPrat\\Documents\\GitHub\\OCRCamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "E:\\LeoPrat\\Documents\\GitHub\\Fotocamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\prate\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\7b32092527daa6bf12eaa02702f7a610\\res\\values-mk\\values.xml",

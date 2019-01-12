@@ -120,7 +120,6 @@ attr camera_aspectRatio
 attr camera_facing
 attr camera_flash
 attr camera_focus
-attr camera_id
 attr camera_imageJpegQuality
 attr camera_imageMegaPixels
 attr camera_permissions
@@ -445,7 +444,6 @@ attr showDividers
 attr showMotionSpec
 attr showText
 attr showTitle
-attr show_fps
 attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
@@ -1054,6 +1052,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_close
 drawable ic_delete
 drawable ic_icon_search
 drawable ic_launcher_background
@@ -1063,7 +1062,6 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_photo_camera
 drawable ic_photo_camera_24px
-drawable ic_search
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1115,7 +1113,6 @@ id adjust_width
 id alertTitle
 id all
 id always
-id any
 id async
 id audio
 id auto
@@ -1138,6 +1135,7 @@ id checkbox
 id chronometer
 id clip_horizontal
 id clip_vertical
+id close_button
 id collapseActionView
 id container
 id content
@@ -1210,6 +1208,7 @@ id info
 id ingredient_view
 id ingredients_auto_complete_text_view
 id ingredients_list
+id ingredients_list_gallery
 id ingredients_title
 id ingredients_view
 id invisible
@@ -1328,8 +1327,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textViewCurrentDownload
-id textViewGalleryDetailIngredients
-id textViewGalleryDetailPercentage
 id textViewProgress
 id text_input_password_toggle
 id text_title
@@ -2134,7 +2131,6 @@ styleable BottomAppBar backgroundTint fabAlignmentMode fabCradleMargin fabCradle
 styleable BottomNavigationView elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout behavior_fitToContents behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
-styleable CameraBridgeViewBase camera_id show_fps
 styleable CameraKitView android_adjustViewBounds camera_aspectRatio camera_facing camera_flash camera_focus camera_imageJpegQuality camera_imageMegaPixels camera_permissions camera_zoomFactor
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
