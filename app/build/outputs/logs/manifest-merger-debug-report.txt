@@ -1,121 +1,605 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\107b62d816cf781c5c5dc2cc28d6b665\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac7a0ad1e5bd8729a8477889733d9a91\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9d511081386cdf8a248bd216f27a8190\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\38ab48486772c03ddddefa8389a4c063\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2a49efed30fbebe53807681a6a9d3e2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\97f412d40facb441d3457f50c5815a47\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ab0846306dc89b19e6f0eea6d2641673\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d69f23976a69dc5b38e60f7194601e8e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\02f7c92d2a4f9d481103982e5befc49e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c0366182c7810f9ee23c42ad866e3781\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d7e81595afc12f5dbe4e1ef5b9b2bedc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3c5a88f8fc309faedeb3bb1c6949251\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+MERGED from [:textrecognizer] E:\LeoPrat\Documents\GitHub\OCRCamera\textrecognizer\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:imageprocessing] E:\LeoPrat\Documents\GitHub\OCRCamera\imageprocessing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\eba65304a9522ad740a5451601ca39c3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b7cec820d8fa2f56292f31576dff232c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c9cfae568f24c952ead3d7705b5f0ddb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\8b8f17a53e7f42a7eb55b66d7036188b\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\c8fe81820653aacd4f6b25fd0d54589d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\3cfdb56bb92485eafcc17661f3f2745a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\8d1795a0059975792aedfaa3e0d943f0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\2bb8936c0191111ed9ff22cc55719667\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\60acb012a41ccf47fa7476a3faaefb12\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\99d742962f92cf53e06050228f0ff2bf\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\fbaa4dedb03ad7cfce288947171e8168\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\7a098de2d0b64cc610d5158034ee542c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\1c7c3862c17260d8ebc547c46968eb4e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\aabe637b34b357f9b6810cc5874c60da\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\434e17df86b356848524219cd965b080\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\803dd590a83b318b526585b99f577f5e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e23ec03e715093031c25dfabd62b7e5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db2e38a70d2de8a79b5af85ee15f7e3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\aaa37a1dbd12bd232ba32f25ff554604\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\7fada33de5f3dde7b3aadcf8b5a828c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:2:1-24:12
+MERGED from [com.camerakit:jpegkit:0.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\jpegkit-0.1.0.aar\a7290a0ebaa376cc37f4657c7f03e657\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c6dca5ab61c3734781c23e77b5d13c45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\779c5a35ee8aa4342aadb6e51af74983\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\0a50a5f630f80baa9f803afdc2cf68c6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\3cc57764b8550d28dc4f53e234e0988b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9d09fba2c665aa0db96947ec32ecdffe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7d02fe74d5dd71b97e80c93fa69d7dd3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a4970f4633b96028dbc7406aaaab84d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7c246c481d1a79705588ae28b69bd4bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\82483a9e99d8c82c95e3e5b7d233a9ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7fda53bb22aecdcd612652c431998f29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f0f74c0140d88d827a22faa2ad9b7949\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f0871ee41cd5ff4bb8869133375ebe8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ef54d60cae1da69d870ce0d86a4ebe62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9658b700da6f21dd2705914b3cb33a1a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\66b076b074dea4703d9b4cb443db83d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d568e15403c9d3e4772b86e45ed3f37e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d2403e28b3b58944a7423be736a7fcb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a002eedaedc1de2a28aea6c83da4b0cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\13718585112de5ec35d0ab104ac75748\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f329346701b515d53708053a9d241f24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2cf438d2433d0758c78d41c2c1c018d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bdbf1d356b4850a30f25bbb9f9d39b2a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6092f4d3fabfd9724cc3b400c6b9e5f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6995619d616b95a207c7eb385cdd0926\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a4b5616f6325e9e3c6ef10fa69fdf463\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f5f577658feaede6d0f786782b995a08\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\35c3ed1c62413dd1a096785c887987a9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9d850cc6476d7bca2cf7159babadc00c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f4ae91cba84a81b235fd3d68506e01cd\AndroidManifest.xml:17:1-22:12
+MERGED from [:openCVLibrary344] E:\LeoPrat\Documents\GitHub\OCRCamera\openCVLibrary344\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\d7c464f7b45f2625aeb831da7ece5951\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.CAMERA
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:5:5-64
-	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:5:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:6:5-80
-	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:7:22-77
-uses-feature#android.hardware.camera2.full
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:9:5-66
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:8:5-81
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:9:5-81
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:9:19-63
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.CAMERA
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:12:5-65
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:7:5-65
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:12:22-62
 application
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:11:5-24:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac7a0ad1e5bd8729a8477889733d9a91\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac7a0ad1e5bd8729a8477889733d9a91\AndroidManifest.xml:9:5-20
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:16:5-82:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\eba65304a9522ad740a5451601ca39c3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\eba65304a9522ad740a5451601ca39c3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c9cfae568f24c952ead3d7705b5f0ddb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c9cfae568f24c952ead3d7705b5f0ddb\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\c8fe81820653aacd4f6b25fd0d54589d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\c8fe81820653aacd4f6b25fd0d54589d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\8d1795a0059975792aedfaa3e0d943f0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\8d1795a0059975792aedfaa3e0d943f0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\2bb8936c0191111ed9ff22cc55719667\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\2bb8936c0191111ed9ff22cc55719667\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\60acb012a41ccf47fa7476a3faaefb12\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\60acb012a41ccf47fa7476a3faaefb12\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\fbaa4dedb03ad7cfce288947171e8168\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\fbaa4dedb03ad7cfce288947171e8168\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\1c7c3862c17260d8ebc547c46968eb4e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\1c7c3862c17260d8ebc547c46968eb4e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\aabe637b34b357f9b6810cc5874c60da\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\aabe637b34b357f9b6810cc5874c60da\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\434e17df86b356848524219cd965b080\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\434e17df86b356848524219cd965b080\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\803dd590a83b318b526585b99f577f5e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\803dd590a83b318b526585b99f577f5e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e23ec03e715093031c25dfabd62b7e5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e23ec03e715093031c25dfabd62b7e5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db2e38a70d2de8a79b5af85ee15f7e3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db2e38a70d2de8a79b5af85ee15f7e3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\aaa37a1dbd12bd232ba32f25ff554604\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\aaa37a1dbd12bd232ba32f25ff554604\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\0a50a5f630f80baa9f803afdc2cf68c6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\0a50a5f630f80baa9f803afdc2cf68c6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\13718585112de5ec35d0ab104ac75748\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\13718585112de5ec35d0ab104ac75748\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\d7c464f7b45f2625aeb831da7ece5951\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\d7c464f7b45f2625aeb831da7ece5951\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:19:9-41
+	tools:ignore
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:23:9-48
 	android:roundIcon
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:17:9-40
-activity#com.example.mattia.fotocamera.MainActivity
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:18:9-23:20
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:22:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:grantUriPermissions
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:32:13-47
+	android:authorities
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:30:13-67
+	android:exported
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:29:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:33:13-35:54
+	android:resource
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:35:17-51
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:34:17-67
+activity#unipd.se18.ocrcamera.CameraActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:38:9-41:52
 	android:screenOrientation
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:18:48-84
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:41:13-49
+	android:configChanges
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:40:13-48
 	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:39:13-43
+activity#unipd.se18.ocrcamera.ResultActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:42:9-52:20
+	android:screenOrientation
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:44:13-48
+	android:value
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:43:13-43
+meta-data#android.app.searchable
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:49:13-51:54
+	android:resource
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:51:17-51
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:50:17-54
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:54:9-56:35
+	android:value
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:56:13-32
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:55:13-70
+activity#unipd.se18.ocrcamera.LauncherActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:58:9-64:20
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:58:19-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:62:27-74
+activity#unipd.se18.ocrcamera.DownloadDbActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:65:9-56
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:65:19-53
+activity#unipd.se18.ocrcamera.GalleryActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:66:9-53
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:66:19-50
+activity#unipd.se18.ocrcamera.TestsListActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:67:9-55
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:67:19-52
+activity#unipd.se18.ocrcamera.TestDetailsActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:68:9-57
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:68:19-54
+activity#unipd.se18.ocrcamera.IngredientDetailsActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:69:9-63
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:69:19-60
+activity#unipd.se18.ocrcamera.SearchResultsActivity
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:72:9-78:20
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:72:19-56
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:73:13-75:29
+action#android.intent.action.SEARCH
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:74:17-71
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:74:25-68
+meta-data#android.app.default_searchable
+ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:80:9-106
+	android:value
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:80:66-104
+	android:name
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml:80:20-65
 uses-sdk
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\107b62d816cf781c5c5dc2cc28d6b665\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\107b62d816cf781c5c5dc2cc28d6b665\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac7a0ad1e5bd8729a8477889733d9a91\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac7a0ad1e5bd8729a8477889733d9a91\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9d511081386cdf8a248bd216f27a8190\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9d511081386cdf8a248bd216f27a8190\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\38ab48486772c03ddddefa8389a4c063\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\38ab48486772c03ddddefa8389a4c063\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2a49efed30fbebe53807681a6a9d3e2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2a49efed30fbebe53807681a6a9d3e2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\97f412d40facb441d3457f50c5815a47\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\97f412d40facb441d3457f50c5815a47\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ab0846306dc89b19e6f0eea6d2641673\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ab0846306dc89b19e6f0eea6d2641673\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d69f23976a69dc5b38e60f7194601e8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d69f23976a69dc5b38e60f7194601e8e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\02f7c92d2a4f9d481103982e5befc49e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\02f7c92d2a4f9d481103982e5befc49e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c0366182c7810f9ee23c42ad866e3781\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c0366182c7810f9ee23c42ad866e3781\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d7e81595afc12f5dbe4e1ef5b9b2bedc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d7e81595afc12f5dbe4e1ef5b9b2bedc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3c5a88f8fc309faedeb3bb1c6949251\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mattia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3c5a88f8fc309faedeb3bb1c6949251\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+MERGED from [:textrecognizer] E:\LeoPrat\Documents\GitHub\OCRCamera\textrecognizer\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:textrecognizer] E:\LeoPrat\Documents\GitHub\OCRCamera\textrecognizer\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:imageprocessing] E:\LeoPrat\Documents\GitHub\OCRCamera\imageprocessing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:imageprocessing] E:\LeoPrat\Documents\GitHub\OCRCamera\imageprocessing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\eba65304a9522ad740a5451601ca39c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\eba65304a9522ad740a5451601ca39c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b7cec820d8fa2f56292f31576dff232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b7cec820d8fa2f56292f31576dff232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c9cfae568f24c952ead3d7705b5f0ddb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c9cfae568f24c952ead3d7705b5f0ddb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\8b8f17a53e7f42a7eb55b66d7036188b\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-18.0.1.aar\8b8f17a53e7f42a7eb55b66d7036188b\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\c8fe81820653aacd4f6b25fd0d54589d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\c8fe81820653aacd4f6b25fd0d54589d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\3cfdb56bb92485eafcc17661f3f2745a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\3cfdb56bb92485eafcc17661f3f2745a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\8d1795a0059975792aedfaa3e0d943f0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\8d1795a0059975792aedfaa3e0d943f0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\2bb8936c0191111ed9ff22cc55719667\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\2bb8936c0191111ed9ff22cc55719667\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\60acb012a41ccf47fa7476a3faaefb12\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\60acb012a41ccf47fa7476a3faaefb12\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\99d742962f92cf53e06050228f0ff2bf\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-ml-common-16.1.5.aar\99d742962f92cf53e06050228f0ff2bf\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\fbaa4dedb03ad7cfce288947171e8168\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\fbaa4dedb03ad7cfce288947171e8168\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\7a098de2d0b64cc610d5158034ee542c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\7a098de2d0b64cc610d5158034ee542c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\1c7c3862c17260d8ebc547c46968eb4e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\1c7c3862c17260d8ebc547c46968eb4e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\aabe637b34b357f9b6810cc5874c60da\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\aabe637b34b357f9b6810cc5874c60da\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\434e17df86b356848524219cd965b080\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\434e17df86b356848524219cd965b080\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\803dd590a83b318b526585b99f577f5e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\803dd590a83b318b526585b99f577f5e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e23ec03e715093031c25dfabd62b7e5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\7e23ec03e715093031c25dfabd62b7e5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db2e38a70d2de8a79b5af85ee15f7e3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db2e38a70d2de8a79b5af85ee15f7e3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\aaa37a1dbd12bd232ba32f25ff554604\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\aaa37a1dbd12bd232ba32f25ff554604\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\7fada33de5f3dde7b3aadcf8b5a828c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\7fada33de5f3dde7b3aadcf8b5a828c6\AndroidManifest.xml:20:5-44
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:5:5-44
+MERGED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:5:5-44
+MERGED from [com.camerakit:jpegkit:0.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\jpegkit-0.1.0.aar\a7290a0ebaa376cc37f4657c7f03e657\AndroidManifest.xml:6:5-8:41
+MERGED from [com.camerakit:jpegkit:0.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\jpegkit-0.1.0.aar\a7290a0ebaa376cc37f4657c7f03e657\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c6dca5ab61c3734781c23e77b5d13c45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c6dca5ab61c3734781c23e77b5d13c45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\779c5a35ee8aa4342aadb6e51af74983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\779c5a35ee8aa4342aadb6e51af74983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\0a50a5f630f80baa9f803afdc2cf68c6\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\0a50a5f630f80baa9f803afdc2cf68c6\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\3cc57764b8550d28dc4f53e234e0988b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\3cc57764b8550d28dc4f53e234e0988b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9d09fba2c665aa0db96947ec32ecdffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\9d09fba2c665aa0db96947ec32ecdffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7d02fe74d5dd71b97e80c93fa69d7dd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7d02fe74d5dd71b97e80c93fa69d7dd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a4970f4633b96028dbc7406aaaab84d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a4970f4633b96028dbc7406aaaab84d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7c246c481d1a79705588ae28b69bd4bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7c246c481d1a79705588ae28b69bd4bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\82483a9e99d8c82c95e3e5b7d233a9ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\82483a9e99d8c82c95e3e5b7d233a9ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7fda53bb22aecdcd612652c431998f29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7fda53bb22aecdcd612652c431998f29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f0f74c0140d88d827a22faa2ad9b7949\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f0f74c0140d88d827a22faa2ad9b7949\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f0871ee41cd5ff4bb8869133375ebe8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f0871ee41cd5ff4bb8869133375ebe8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ef54d60cae1da69d870ce0d86a4ebe62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ef54d60cae1da69d870ce0d86a4ebe62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9658b700da6f21dd2705914b3cb33a1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9658b700da6f21dd2705914b3cb33a1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\66b076b074dea4703d9b4cb443db83d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\66b076b074dea4703d9b4cb443db83d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d568e15403c9d3e4772b86e45ed3f37e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d568e15403c9d3e4772b86e45ed3f37e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d2403e28b3b58944a7423be736a7fcb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d2403e28b3b58944a7423be736a7fcb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a002eedaedc1de2a28aea6c83da4b0cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a002eedaedc1de2a28aea6c83da4b0cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\bb6c73fb75c05a8f6280ffef803c270f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\13718585112de5ec35d0ab104ac75748\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\13718585112de5ec35d0ab104ac75748\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f329346701b515d53708053a9d241f24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f329346701b515d53708053a9d241f24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2cf438d2433d0758c78d41c2c1c018d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2cf438d2433d0758c78d41c2c1c018d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bdbf1d356b4850a30f25bbb9f9d39b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\bdbf1d356b4850a30f25bbb9f9d39b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6092f4d3fabfd9724cc3b400c6b9e5f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6092f4d3fabfd9724cc3b400c6b9e5f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6995619d616b95a207c7eb385cdd0926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6995619d616b95a207c7eb385cdd0926\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a4b5616f6325e9e3c6ef10fa69fdf463\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a4b5616f6325e9e3c6ef10fa69fdf463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f5f577658feaede6d0f786782b995a08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f5f577658feaede6d0f786782b995a08\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\35c3ed1c62413dd1a096785c887987a9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\35c3ed1c62413dd1a096785c887987a9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9d850cc6476d7bca2cf7159babadc00c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9d850cc6476d7bca2cf7159babadc00c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f4ae91cba84a81b235fd3d68506e01cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f4ae91cba84a81b235fd3d68506e01cd\AndroidManifest.xml:20:5-44
+MERGED from [:openCVLibrary344] E:\LeoPrat\Documents\GitHub\OCRCamera\openCVLibrary344\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary344] E:\LeoPrat\Documents\GitHub\OCRCamera\openCVLibrary344\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\d7c464f7b45f2625aeb831da7ece5951\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\d7c464f7b45f2625aeb831da7ece5951\AndroidManifest.xml:5:5-44
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mattia\AndroidStudioProjects\mattia1142866\Fotocamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		ADDED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+		INJECTED from E:\LeoPrat\Documents\GitHub\OCRCamera\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\bfaaa8c89c623aa26b2f36c189c5f85c\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\b8ca1b4a253a2575c8b7c3da8e75b3dc\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\20827a1a77a993e636d0978a96ae2124\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\693a1e93cdcc1e792f893d2dc4c4989b\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7b32092527daa6bf12eaa02702f7a610\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\aa5efcc8a9ec825ddc34b5106334beba\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\903e0d0b0615a515d73dc8c0d2dfa53c\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:8:22-68
+uses-feature#android.hardware.camera
+ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:15:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:18:9-57
+uses-feature#android.hardware.microphone
+ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [com.camerakit:camerakit:1.0.0-beta3.10] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\camerakit-1.0.0-beta3.10.aar\a7d9a2c493ffb389a733053e68d64b27\AndroidManifest.xml:21:9-51
+meta-data#android.support.VERSION
+ADDED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:exifinterface:26.1.0] C:\Users\prate\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\747426d64a7b905586d3f62a798099b3\AndroidManifest.xml:24:13-51
